@@ -1,0 +1,28 @@
+# node: pbcn01
+# compiler: gcc (GCC) 8.5.0 20210514 (Red Hat 8.5.0-20)
+# Core(s) per socket:  24
+# Socket(s):           2
+# NUMA node(s):        2
+# Model name:          Intel(R) Xeon(R) Gold 6336Y CPU @ 2.40GHz
+# L3 cache:            36864K
+seq;1;9.109379;OK
+seq;1;9.361035;OK
+seq;1;9.168865;OK
+omp;1;9.379473;OK
+omp;1;9.366787;OK
+omp;1;9.371190;OK
+omp;2;4.648263;OK
+omp;2;4.664982;OK
+omp;2;4.638059;OK
+omp;4;2.472674;OK
+omp;4;2.503733;OK
+omp;4;2.466635;OK
+omp;8;1.490585;OK
+omp;8;1.493262;OK
+omp;8;1.505403;OK
+omp;16;0.957826;OK
+omp;16;0.993537;OK
+omp;16;0.951298;OK
+omp;32;0.948473;OK
+omp;32;0.677929;OK
+omp;32;0.720984;OK
